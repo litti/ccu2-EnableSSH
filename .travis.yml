@@ -11,3 +11,5 @@ deploy:
   file: ccu2-EnableSSH-$(cat ./VERSION).tar.gz
   on:
     repo: litti/ccu2-EnableSSH
+    tags: true
+    all_branches: true
