@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sed -i 's/^root:.*:19087/root:.c.1ReJB0FUp.:19087/g' /usr/local/etc/config/shadow
+touch /usr/local/etc/config/sshEnabled
