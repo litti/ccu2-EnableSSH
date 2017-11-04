@@ -1,5 +1,8 @@
 language: bash
-script: "./generate_img.sh"
+before_script:
+  - chmod +x "./generate_img.sh"
+script:
+  - "./generate_img.sh"
 deploy:
   provider: releases
   skip_cleanup: true
