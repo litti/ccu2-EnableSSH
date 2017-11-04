@@ -1,15 +1,13 @@
 language: bash
 before_script:
-  - chmod +x "./generate_img.sh"
+- chmod +x "./generate_img.sh"
 script:
-  - "./generate_img.sh"
+- "./generate_img.sh"
 deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: dabZxO1THS0hGfqUU5pH8jhHMrTlrq4mZk0bs678pO54Gc7lMGb82SY1J5InJxMBeNBlj9SrNF3wy7lJDz9QS59zciPaB7N2hkSbmeOMRWtXhY23TwZoNG4IqxUcmuQQReJwtvqWYDGquZXi7ZKjSGjrsuTY2+DBeKfC+/YDW8aXo70wthCBRHnRLXKdqGRkBUx8zGMjlgkZBS1SBgb2odIg+GX2MXGPeb3/vuQ204AHpj0T98nk+HZ7YeGM5ucRo53ncSGCIWKMFdB8JnnXjq0Dwiaf0IXJ/gcQ5GW5a770rmiep4ttqMBfNKWwg9Xr8xHkZO79eskgMK5OiSxEu4ySH5Eh7C1Q5GWK5ZqChekTDtsiOxSkz1hpjHn6LyyPOmPCz70qD5kDZgKbHoBAJShaYFjHVSp+F0RSwlmoBexUIBgQ1K6C3nFvLCEe8dWfPc9/48DFKs6mKwajd9vYhrSQ4MabxZFEfSZ0I9yHY2DKl7zTMSpDfzCsuVSlN17Sn6ztApjwwC5cSGrPV8lvTlzdMau5THECwUS5nXdLMxVp3fKc1RwxQQEtiMRdWXRFRoLlwxACKNXQ8IOL9UsjujK7H3547oyKzPGtv9APOguhZ8wT6rRLwImHALZmXxlpqm7l8GSr2/iHZJmcbcu+wR/V4npLUqqjGfQuL1UwCzI=
+    secure: b23+/ow5uqIMykK2cGWisJC4gzixEdIhdFjSny+nCW0cyACEhHG2s8xvvFa4HEO5aHpdxThIDNpf+n9qZE/p3cZqvE84A6bEWb6xxRhLIKxdTqTbZuFkOsxsygNYaQn9H88yVZQJj0DzTb6zb227p9PxB5i/34v54gWrlzPHy9MLVJFQKAFwbLnG9PzOeLH+m34anq7xvm/t7MA3TI0igXKEIn3EckMsnx7kqH0bIa562ieV02hcUMOnjPeSMN3f4fZO6VIWcYSWzdmVjU6EHlEjDrCBd3fw9/uaqeBdQnhpEiVtOICpn7mUoK3xAJ3GBSiZJL2/5apNkWfV1ZWoXYwT5Hu9t0qu9gt+yCrppuYh6+6rf8wnmKbKAkAXTNyGyfI8bh9mCg14e3GAeH512WEsDvMiHrW12rk4ykkx40pWZErb5aqWlako6cEZmJUew6Q9PtA7ctnXzaII7L+EeYkWFVrQsPjiwKo60uIxfsI7hsU1DQA8ns0FQ5z2fSCHGqh4IxEUzWZlyK+tZU7HiwkfgyvJHBJMcfk3Tm3l4iX9FnwDxVRPEHCiCP6lR1g0Pxvs5Fa72AK4eR+m5YcVEsaA9zdMmlmz4E5p+WanrL17+uI4cFbpbAbMppDq3Cdjnza/fra1httSRZMJZQi5PlhvEZHqSRQsFBZ+S6MjKWU=
   file: ccu2-EnableSSH-$(cat ./VERSION).tar.gz
   on:
     repo: litti/ccu2-EnableSSH
-    tags: true
-    all_branches: true
