@@ -43,6 +43,9 @@ To quit without writing changes:
 ESC :q!
 ```
 
+## Got satisfied?
+[<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">](https://www.paypal.me/alitfin)
+
 Disclaimer
 ======
 **ATTENTION! No warranty or liability provided. Use this addon as-is at your own risk!**
