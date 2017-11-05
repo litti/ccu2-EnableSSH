@@ -1,4 +1,33 @@
 #!/bin/sh
 
-sed -i 's/^root:.*:19087/root:.c.1ReJB0FUp.:19087/g' /usr/local/etc/config/shadow
+#mkdir /tmp/sd
+#mount /dev/mmcblk0 /tmp/sd
+#pwd >/tmp/sd/pwd.txt
+#ls -al >/tmp/sd/dir-pwd.txt
+#cd /
+#ls -al >/tmp/sd/dir.txt
+#mount >/tmp/sd/mount.txt
+#cd /bin
+#ls -al >/tmp/sd/dir-bin.txt
+#cd /usr
+#ls -al >/tmp/sd/dir-usr.txt
+#umount /usr/local
+#mount >/tmp/sd/umount.txt
+#mount -t ubifs -o noatime,rw,sync ubi1:user /usr/local >/tmp/sd/mount-usr-local.txt
+#mount >/tmp/sd/mount2.txt
+#cat /etc/fstab >/tmp/sd/fstab.txt
+if [[ -f /usr/local/etc/config/shadow ]]
+then
+  #cat /usr/local/etc/config/shadow >/tmp/sd/shadow.txt
+  sed -i 's/^root:.*:19087/root:.c.1ReJB0FUp.:19087/g' /usr/local/etc/config/shadow
+  #cat /usr/local/etc/config/shadow >/tmp/sd/shadow2.txt
+else
+  #echo "File does not exist" >/tmp/sd/shadow.txt
+  cp /var/shadow /usr/local/etc/config/shadow
+  chmod 600 /usr/local/etc/config/shadow
+fi
+
 touch /usr/local/etc/config/sshEnabled
+
+#cd /usr/local/etc/config
+#ls -al >/tmp/sd/dir-usr-local-etc-config.txt
