@@ -14,22 +14,34 @@ To reset the password for the Admin user in the WebUI please follow https://home
 Maybe you want to use
 
 To open the regadom:
+```
 vi /usr/local/etc/config/homematic.regadom
+```
 
 To search for Admin:
+```
 /Admin
+```
 
 To delete chars
+```
 x or the delete-key
+```
 
 To switch to insert mode
+```
 i
+```
 
 To save your changes and quit:
+```
 ESC :wq Enter
+```
 
 To quit without writing changes:
+```
 ESC :q!
+```
 
 Disclaimer
 ======
