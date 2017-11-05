@@ -44,6 +44,7 @@ ESC :q!
 ```
 
 ## Got satisfied?
+Donate via Paypal:
 [<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">](https://www.paypal.me/alitfin)
 
 Disclaimer
