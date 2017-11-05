@@ -5,7 +5,7 @@ MuZhlo9n%8!G
 ```
 
 ## Reset CCU2 Admin Passwort for the WebUI
-To reset the password for the Admin in the WebUI please follow https://homematic-forum.de/forum/viewtopic.php?f=31&t=11119. You can find the most important vi commands here: http://www.lagmonster.org/docs/vi.html
+To reset the password for the Admin user in the WebUI please follow https://homematic-forum.de/forum/viewtopic.php?f=31&t=11119. You can find the most important vi commands here: http://www.lagmonster.org/docs/vi.html
 Maybe you want to use
 
 To open the regadom:
