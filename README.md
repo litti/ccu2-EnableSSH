@@ -4,6 +4,28 @@ With this addon you can enable SSH in CCU2 via rescue system. To enter the rescu
 MuZhlo9n%8!G
 ```
 
+## Reset CCU2 Admin Passwort für the WebUI
+To reset the password for the Admin in the WebUI please follow https://homematic-forum.de/forum/viewtopic.php?f=31&t=11119. You can find the most important vi commands here: http://www.lagmonster.org/docs/vi.html
+Maybe you want to use
+
+To open the regadom:
+vi /usr/local/etc/config/homematic.regadom
+
+To search for Admin:
+/Admin
+
+To delete chars
+x or the delete-key
+
+To switch to insert mode
+i
+
+To save your changes and quit:
+ESC :wq Enter
+
+To quit without writing changes:
+ESC :q!
+
 Disclaimer
 ======
 **ATTENTION! No warranty or liability provided. Use this addon as-is at your own risk!**
