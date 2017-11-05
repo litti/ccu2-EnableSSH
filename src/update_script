@@ -11,9 +11,9 @@
 #ls -al >/tmp/sd/dir-bin.txt
 #cd /usr
 #ls -al >/tmp/sd/dir-usr.txt
-#umount /usr/local
+umount /usr/local
 #mount >/tmp/sd/umount.txt
-#mount -t ubifs -o noatime,rw,sync ubi1:user /usr/local >/tmp/sd/mount-usr-local.txt
+mount -t ubifs -o noatime,rw,sync ubi1:user /usr/local >/tmp/sd/mount-usr-local.txt
 #mount >/tmp/sd/mount2.txt
 #cat /etc/fstab >/tmp/sd/fstab.txt
 if [[ -f /usr/local/etc/config/shadow ]]
