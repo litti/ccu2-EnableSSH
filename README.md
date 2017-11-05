@@ -1,5 +1,10 @@
 # ccu2-EnableSSH
-With this addon you can enable SSH in CCU2 via rescue system. To enter the rescue system please read http://www.eq-3.de/Downloads/eq3/pdf_FAQ/Recovery-System.pdf. Then choose 'Datei auswählen', choose the release .tar.gz (do not extract/unzip it!) and press 'start recovery'. After a short period the CCU2 will reboot. SSH will be available after reboot with user root and the former standard root password 
+With this addon you can enable SSH in CCU2 via rescue system. 
+
+##Usage
+1. Download the latest release as .tar.gz (not the source code!) from the release page (https://github.com/litti/ccu2-EnableSSH/releases).
+2. Then enter the rescue mode of your CCU2. To enter the rescue system please read http://www.eq-3.de/Downloads/eq3/pdf_FAQ/Recovery-System.pdf.
+3. Choose 'Datei auswählen', choose the downloaded release .tar.gz from step 1 (do not extract/unzip it!) and press 'start recovery'. After a short period the CCU2 will reboot. SSH will be available after reboot with user root and the former standard root password 
 ```
 MuZhlo9n%8!G
 ```
