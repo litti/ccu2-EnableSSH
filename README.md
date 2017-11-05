@@ -4,4 +4,6 @@ With this addon you can enable SSH in CCU2 via rescue system. To enter the rescu
 MuZhlo9n%8!G
 ```
 
-*ATTENTION! No warranty or liability provided. Use this addon as-is at your own risk!*
+Disclaimer
+======
+**ATTENTION! No warranty or liability provided. Use this addon as-is at your own risk!**
